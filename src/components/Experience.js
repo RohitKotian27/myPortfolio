@@ -58,10 +58,10 @@ export default function Experience() {
                     <p className="text-3xl md:text-4xl font-bold border-b-4 border-gray-500 inline">Experience</p>
                     <p className="py-6">These are the technologies I've worked with</p>
                 </div>
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-0 sm:px-12">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center px-2">
                     {techStacks.map(({ id, src, title, style }) => (
                         <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                            <img src={src} className="w-20 mx-auto" alt="experience thumbnails" />
+                            <img src={src} className="w-16 mx-auto" alt="experience thumbnails" />
                             <p className="mt-4">{title}</p>
                         </div>
                     ))}
