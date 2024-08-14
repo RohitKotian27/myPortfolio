@@ -4,7 +4,7 @@ import todoList from "../assets/portfolio/todo-list.jpg";
 import shopMate from "../assets/portfolio/shop-mate.jpg";
 import codeBook from "../assets/portfolio/code-book.jpg";
 import randomQuote from "../assets/portfolio/random-quote.jpg";
-import websiteTemplate from "../assets/portfolio/website-template.jpg";
+import tictactoe from "../assets/portfolio/tic-tac-toe.jpg";
 
 export default function Portfolio() {
     const portfolios = [
@@ -40,9 +40,9 @@ export default function Portfolio() {
         },
         {
             id: 6,
-            src: websiteTemplate,
-            demoUrl: 'https://rohitkotian27.github.io/MyTemplate/',
-            codeUrl: 'https://github.com/RohitKotian27/RohitKotian27.github.io/tree/master/MyTemplate'
+            src: tictactoe,
+            demoUrl: 'https://playxandzeroes.netlify.app/',
+            codeUrl: 'https://github.com/RohitKotian27/tictactoe'
         },
     ]
     return (
