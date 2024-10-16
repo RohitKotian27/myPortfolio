@@ -3,7 +3,7 @@ import chatBot from "../assets/portfolio/chat-bot.jpg";
 import movieMate from "../assets/portfolio/movie-mate.jpg";
 import todoList from "../assets/portfolio/todo-list.jpg";
 import shopMate from "../assets/portfolio/shop-mate.jpg";
-import randomQuote from "../assets/portfolio/random-quote.jpg";
+import aiImageGenerator from "../assets/portfolio/ai-image-generator.png";
 import tictactoe from "../assets/portfolio/tic-tac-toe.jpg";
 
 export default function Portfolio() {
@@ -34,10 +34,9 @@ export default function Portfolio() {
     },
     {
       id: 5,
-      src: randomQuote,
-      demoUrl: "https://rohitkotian27.github.io/Random_Quote_Generator/",
-      codeUrl:
-        "https://github.com/RohitKotian27/RohitKotian27.github.io/tree/master/Random_Quote_Generator",
+      src: aiImageGenerator,
+      demoUrl: "https://imagenova.netlify.app/",
+      codeUrl: "https://github.com/RohitKotian27/imagenova",
     },
     {
       id: 6,
