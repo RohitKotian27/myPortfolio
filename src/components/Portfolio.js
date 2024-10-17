@@ -11,7 +11,7 @@ export default function Portfolio() {
     {
       id: 1,
       src: chatBot,
-      demoUrl: "https://askjarvis.netlify.app/",
+      demoUrl: "https://askjarvis.vercel.app/",
       codeUrl: "https://github.com/RohitKotian27/askjarvis",
     },
     {
